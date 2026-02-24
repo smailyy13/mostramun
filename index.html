@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOSTRAMUN'26</title>
+  <meta
+    name="description"
+    content="MOSTRAMUN'26 official website — committees, team, venue, calendar, FAQ, contact and applications."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a href="#top" class="brand">
+        <img class="brand-mark" src="assets/mostramunlogo.svg" alt="MOSTRAMUN'26 logo" />
+        <span class="brand-text">MOSTRAMUN'26</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#about">About</a>
+        <a href="#team">Our Team</a>
+        <a href="#committees">Committees</a>
+        <a href="#venue">Venue</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#apply" class="btn btn-primary desktop-apply">Apply Now</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-controls="mobileNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </header>
+
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#team">Our Team</a>
+    <a href="#committees">Committees</a>
+    <a href="#venue">Venue</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="#apply" class="btn btn-primary mobile-apply">Apply Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-vignette"></div>
+
+    <div class="container hero-content">
+      <p class="eyebrow">MODEL UNITED NATIONS • MOSTRA</p>
+
+      <h1>MOSTRAMUN'26</h1>
+
+      <div class="countdown-card">
+        <div class="countdown-header">
+          <span class="countdown-dot"></span>
+          <span>Countdown to Conference</span>
+        </div>
+
+        <div class="countdown" id="countdown">
+          <div class="time-box">
+            <span id="days">00</span>
+            <small>Days</small>
+          </div>
+          <div class="time-sep">:</div>
+          <div class="time-box">
+            <span id="hours">00</span>
+            <small>Hours</small>
+          </div>
+          <div class="time-sep">:</div>
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+          </div>
+          <div class="time-sep">:</div>
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-actions">
+        <a href="#apply" class="btn btn-primary">Apply Now</a>
+        <a href="#committees" class="btn btn-ghost">View Committees</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>About MOSTRAMUN'26</h2>
+      </div>
+
+      <div class="panel about-panel">
+        <div class="about-text">
+          <p>
+            MOSTRAMUN'26 is a Model United Nations conference organized under MOSTRA, bringing together
+            students who are passionate about diplomacy, debate, leadership and global issues.
+          </p>
+          <p>
+            Our mission is to create an academically strong yet inclusive conference experience where
+            delegates can develop public speaking, negotiation and policy-making skills while building
+            meaningful connections.
+          </p>
+          <p>
+            Inspired by the structured content flow of international MUN conference websites, this page
+            presents our team, committees, venue, calendar information, FAQ and application tracks in one
+            modern experience.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3>16</h3>
+            <p>Committees</p>
+          </div>
+          <div class="stat-card">
+            <h3>∞</h3>
+            <p>Debates & Ideas</p>
+          </div>
+          <div class="stat-card">
+            <h3>1</h3>
+            <p>Vision</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section section-alt" id="team">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Our Team</p>
+        <h2>Meet the Organization Team</h2>
+        <p class="section-desc">
+          Meet the core leadership team of MOSTRAMUN'26.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card">
+          <div class="team-avatar">SG</div>
+          <h3>Secretary General</h3>
+          <p class="team-name">Melek Mimar</p>
+          <p class="team-role">Conference Lead</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">DG</div>
+          <h3>Director General</h3>
+          <p class="team-name">Berra Can</p>
+          <p class="team-role">Conference Operations</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">DSG</div>
+          <h3>Deputy Secretary General</h3>
+          <p class="team-name">Arda Karan Övüç</p>
+          <p class="team-role">Academic & Committee Coordination</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">DDG</div>
+          <h3>Deputy Director General</h3>
+          <p class="team-name">Gamze Elif Kanat</p>
+          <p class="team-role">Delegate Affairs & Coordination</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMITTEES -->
+  <section class="section" id="committees">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Committees</p>
+        <h2>Committees & Agendas</h2>
+        <p class="section-desc">
+          Committee listing with Mostra-themed cards. Click a committee to inspect details.
+        </p>
+      </div>
+
+      <div class="committee-grid" id="committeeGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- VENUE -->
+  <section class="section section-alt" id="venue">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Venue</p>
+        <h2>Conference Venue</h2>
+      </div>
+
+      <div class="panel venue-panel">
+        <div class="venue-content venue-content-single">
+          <p class="venue-location-label">Location</p>
+          <p class="venue-location-value">Yıldız Teknik Üniversitesi Beşiktaş Kampüsü</p>
+          <a href="https://google.com/maps/place//data=!4m2!3m1!1s0x14cab7afd662296b:0x838c088492dac437?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener" class="btn btn-ghost venue-map-btn">Open in Google Maps</a>
+        </div>
+
+        <div class="venue-map-embed">
+          <iframe
+            title="Yıldız Teknik Üniversitesi Beşiktaş Kampüsü Map"
+            src="https://www.google.com/maps?q=Y%C4%B1ld%C4%B1z+Teknik+%C3%9Cniversitesi+Be%C5%9Fikta%C5%9F+Kamp%C3%BCs%C3%BC&output=embed"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section class="section" id="calendar">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Calendar</p>
+        <h2>Important Dates</h2>
+        <p class="section-desc">
+          Fill this with your official application, payment and conference timeline.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Applications Open</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Applications Close</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Delegation / Chairboard Results</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Conference Dates</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Who can apply to MOSTRAMUN'26?</summary>
+          <p>
+            Students interested in Model United Nations and diplomacy can apply through the relevant
+            application track (delegate, delegation, or chairboard) based on the final conference rules.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Will study guides be provided?</summary>
+          <p>
+            Yes, committee materials and guides can be published after committee allocations are finalized.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where can I contact the organization team?</summary>
+          <p>
+            Use the contact section below or link your official email / social media channels.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is accommodation included?</summary>
+          <p>
+            Add your official policy here (included / not included / partner hotels / external arrangements).
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLY -->
+  <section class="section" id="apply">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Apply</p>
+        <h2>Application Tracks</h2>
+        <p class="section-desc">
+          “Apply Now” structure with MOSTRA visual treatment.
+        </p>
+      </div>
+
+      <div class="apply-grid">
+        <article class="apply-card">
+          <h3>Delegate Application</h3>
+          <p>Individual participant application for delegates.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsQkkzAhiO-uUsg4j1fq1AMr1PW5CaNnKN5kuDfKjKDf8Q_Q/viewform" target="_blank" rel="noopener" class="btn btn-primary">Apply as Delegate</a>
+        </article>
+
+        <article class="apply-card">
+          <h3>Delegation Application</h3>
+          <p>School / institution group application for delegations.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQIeJH9bIShz7eLV3AAYZhbAGV2aQpc8SytrZoKYCQrgKdng/viewform" target="_blank" rel="noopener" class="btn btn-primary">Apply as Delegation</a>
+        </article>
+
+        <article class="apply-card">
+          <h3>Chairboard Application</h3>
+          <p>Application for academic staff / chairboard positions.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDcDdhu5qclOnb8TyI9c33IEG0ta8AV3g9TMBl74LXDuMWwA/viewform" target="_blank" rel="noopener" class="btn btn-primary">Apply as Chairboard</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Contact Us</h2>
+        <p class="section-desc">
+          Add your official email, Instagram, and contact form links here.
+        </p>
+      </div>
+
+      <div class="panel contact-panel">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:mostramun@gmail.com">mostramun@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Instagram</h3>
+          <p><a href="https://instagram.com/mostra_mun" target="_blank" rel="noopener">@mostra_mun</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-brand">MOSTRAMUN'26</p>
+        <p class="footer-copy">© 2026 Team Mostra. Tüm hakları saklıdır.</p>
+      </div>
+      <div class="footer-right">
+        <p class="footer-sub footer-madeby">
+          <a href="https://www.linkedin.com/in/ismailyesilyurt/" target="_blank" rel="noopener">
+            Made by İsmail Yeşilyurt
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COMMITTEE MODAL -->
+  <div class="modal" id="committeeModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="modal-tag" id="modalType">Committee</p>
+      <h3 id="modalTitle">Committee Name</h3>
+      <p class="modal-agenda" id="modalAgenda">Agenda text</p>
+      <div class="modal-section">
+        <h4>About this committee</h4>
+        <p id="modalDescription">
+          Detailed committee content will be added soon. You can replace this with committee guide info,
+          topic background, level, and expected debate focus.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
