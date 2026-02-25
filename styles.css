@@ -195,6 +195,7 @@ a {
 .mobile-nav.open a:nth-child(6) { transition-delay: 240ms; }
 .mobile-nav.open a:nth-child(7) { transition-delay: 280ms; }
 .mobile-nav.open a:nth-child(8) { transition-delay: 320ms; }
+.mobile-nav.open a:nth-child(9) { transition-delay: 360ms; }
 
 .menu-btn.open {
   background: rgba(69, 177, 122, 0.1);
@@ -625,6 +626,7 @@ body.js-enabled .reveal-item.is-visible {
   grid-template-columns: 1.3fr 1fr;
   gap: 1rem;
   padding: 1rem;
+  align-items: start;
 }
 
 .about-text {
@@ -643,15 +645,17 @@ body.js-enabled .reveal-item.is-visible {
 
 .about-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.8rem;
+  align-self: start;
 }
 
 .stat-card {
   background: rgba(255,255,255,0.025);
   border: 1px solid rgba(255,255,255,0.05);
   border-radius: 16px;
-  padding: 1rem;
+  padding: 1.1rem 0.95rem;
+  text-align: center;
 }
 
 .stat-card h3 {
@@ -668,7 +672,7 @@ body.js-enabled .reveal-item.is-visible {
 /* TEAM */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -818,9 +822,9 @@ body.js-enabled .reveal-item.is-visible {
 .venue-location-value {
   margin: 0;
   color: #e8f6ee;
-  font-size: clamp(1.12rem, 2.8vw, 1.45rem);
-  line-height: 1.25;
-  font-weight: 700;
+  font-size: clamp(1rem, 2.2vw, 1.18rem);
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 .venue-map-btn {
@@ -902,6 +906,26 @@ body.js-enabled .reveal-item.is-visible {
   color: #b2beb7;
 }
 
+/* SCHEDULE */
+.schedule-panel {
+  padding: 1.6rem 1.35rem;
+  display: flex;
+  justify-content: center;
+}
+
+.schedule-panel p {
+  margin: 0;
+  color: #bdc8c1;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.02);
+}
+
 /* FAQ */
 .faq-list {
   display: grid;
@@ -958,6 +982,42 @@ body.js-enabled .reveal-item.is-visible {
   margin: 0;
   color: #b4c0b8;
   line-height: 1.6;
+}
+
+.apply-pricing {
+  width: min(100%, 320px);
+  margin: 0.15rem auto 0.35rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.apply-pricing .price-row {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 1rem;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 0.5rem 0.68rem;
+  color: #b8c3bc;
+  font-size: 0.9rem;
+}
+
+.apply-pricing .price-label {
+  white-space: nowrap;
+  font-weight: 600;
+  text-align: left;
+}
+
+.apply-pricing .price-value {
+  justify-self: end;
+  text-align: right;
+  min-width: 108px;
+  color: #d9ffeb;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
 }
 
 /* CONTACT */
@@ -1167,7 +1227,7 @@ body.js-enabled .reveal-item.is-visible {
   }
 
   .team-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .apply-grid {
