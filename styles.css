@@ -280,7 +280,7 @@ body.menu-open {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(5,8,6,0.15), rgba(5,8,6,0.6)),
-    url("https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1800&q=80")
+    url("assets/mostramunlander.jpeg")
     center/cover no-repeat;
   transform: scale(1.02);
   animation: heroZoom 20s ease-in-out infinite alternate;
@@ -623,14 +623,15 @@ body.js-enabled .reveal-item.is-visible {
 /* ABOUT */
 .about-panel {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
   padding: 1rem;
   align-items: start;
 }
 
 .about-text {
-  padding: 0.6rem 0.7rem;
+  padding: 0.55rem 0.65rem;
+  max-width: none;
 }
 
 .about-text p {
@@ -645,9 +646,10 @@ body.js-enabled .reveal-item.is-visible {
 
 .about-stats {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(180px, 230px));
   gap: 0.8rem;
-  align-self: start;
+  justify-content: start;
+  align-self: auto;
 }
 
 .stat-card {
