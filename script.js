@@ -110,7 +110,6 @@ function renderCommittees() {
       <button class="committee-card" data-index="${index}" type="button">
         <div class="committee-top">
           <span class="committee-tag">${c.type}</span>
-          <span class="committee-arrow">↗</span>
         </div>
         <h3>${c.name}</h3>
         <p>${c.agenda}</p>
@@ -156,25 +155,26 @@ function closeModal() {
   document.body.style.overflow = "";
 }
 
-if (committeeGrid) {
-  committeeGrid.addEventListener("click", (e) => {
-    const card = e.target.closest(".committee-card");
-    if (!card) return;
-
-    const index = Number(card.dataset.index);
-    const committee = committees[index];
-    if (committee) openModal(committee);
-  });
-}
-
-if (modalBackdrop) modalBackdrop.addEventListener("click", closeModal);
-if (modalClose) modalClose.addEventListener("click", closeModal);
-
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && modal?.classList.contains("open")) {
-    closeModal();
-  }
-});
+// Committee popup interaction is temporarily disabled.
+// if (committeeGrid) {
+//   committeeGrid.addEventListener("click", (e) => {
+//     const card = e.target.closest(".committee-card");
+//     if (!card) return;
+//
+//     const index = Number(card.dataset.index);
+//     const committee = committees[index];
+//     if (committee) openModal(committee);
+//   });
+// }
+//
+// if (modalBackdrop) modalBackdrop.addEventListener("click", closeModal);
+// if (modalClose) modalClose.addEventListener("click", closeModal);
+//
+// window.addEventListener("keydown", (e) => {
+//   if (e.key === "Escape" && modal?.classList.contains("open")) {
+//     closeModal();
+//   }
+// });
 
 // ===== HEADER SHADOW ON SCROLL =====
 const header = document.querySelector(".site-header");
