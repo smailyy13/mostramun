@@ -88,7 +88,7 @@ const committees = [
   { type: "SPECIAL", name: "House of Commons", agenda: "Unemployment and Regional Disparities in Thatcher's Britain" },
   { type: "SPECIAL", name: "EGM", agenda: "The Palu Family Case: Faith-Based Coercive Mechanisms, Domestic Violence, and Concealed Deaths" },
   { type: "SPECIAL", name: "FIA", agenda: "2016-Jules Bianchi Accident Investigation" },
-  { type: "SPECIAL", name: "ICC", agenda: "Judicial Review of Alleged Federal Election Manipulation in the 2024 United States Presidential Election" },
+  { type: "SPECIAL", name: "US Federal Court", agenda: "Judicial Review of Alleged Federal Election Manipulation in the 2024 United States Presidential Election" },
   { type: "SEMI", name: "European Parliament", agenda: "The alleged Chinese harsh power and assimilation policies over East Turkistan & Uighurs" },
   { type: "SEMI", name: "SUMMIT", agenda: "1940 British war summit" },
   { type: "SEMI", name: "H-UNSC", agenda: "Concerning the deployment of nuclear missiles in Cuba and the implications of Cuban Missile Crisis for international peace and security." },
