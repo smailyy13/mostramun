@@ -1,4 +1,4 @@
-# MOSTRAMUN'26 Website Draft (Mostra style)
+# MOSTRAMUN'26 Website 
 
 A static single-page website draft for MOSTRAMUN'26.
 
