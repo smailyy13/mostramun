@@ -911,6 +911,7 @@ body.js-enabled .reveal-item.is-visible {
 /* SCHEDULE */
 .schedule-days {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -1001,6 +1002,12 @@ body.js-enabled .reveal-item.is-visible {
 
 .schedule-event.schedule-party::before {
   content: "🎉 ";
+}
+
+@media (max-width: 860px) {
+  .schedule-days {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 600px) {
