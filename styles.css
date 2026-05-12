@@ -909,23 +909,109 @@ body.js-enabled .reveal-item.is-visible {
 }
 
 /* SCHEDULE */
-.schedule-panel {
-  padding: 1.6rem 1.35rem;
-  display: flex;
-  justify-content: center;
+.schedule-days {
+  display: grid;
+  gap: 1rem;
 }
 
-.schedule-panel p {
-  margin: 0;
-  color: #bdc8c1;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+.schedule-day {
+  overflow: hidden;
+}
+
+.schedule-day-header {
+  padding: 0.85rem 1rem 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.schedule-day-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(69,177,122,0.18), rgba(69,177,122,0.06));
+  border: 1px solid rgba(69,177,122,0.22);
+  color: #9fe5bb;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  padding: 0.45rem 0.95rem;
-  border: 1px solid rgba(255,255,255,0.08);
+  padding: 0.28rem 0.7rem;
   border-radius: 999px;
-  background: rgba(255,255,255,0.02);
+}
+
+.schedule-table {
+  padding: 0.35rem 0.5rem 0.5rem;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.5rem;
+  border-radius: 12px;
+  transition: background 0.18s ease;
+}
+
+.schedule-row:not(:last-child) {
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.schedule-row:hover {
+  background: rgba(255,255,255,0.025);
+}
+
+.schedule-time {
+  color: #8eb8a2;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.schedule-event {
+  color: #d8e6dc;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.schedule-event.schedule-break {
+  color: #8faaa0;
+  font-weight: 400;
+}
+
+.schedule-row-party {
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, rgba(69,177,122,0.1), rgba(69,177,122,0.04));
+  border: 1px solid rgba(69,177,122,0.22) !important;
+  border-radius: 14px !important;
+}
+
+.schedule-row-party:hover {
+  background: linear-gradient(135deg, rgba(69,177,122,0.16), rgba(69,177,122,0.07)) !important;
+}
+
+.schedule-row-party .schedule-time {
+  color: #7dd4a8;
+}
+
+.schedule-event.schedule-party {
+  color: #a8f0c9;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.schedule-event.schedule-party::before {
+  content: "🎉 ";
+}
+
+@media (max-width: 600px) {
+  .schedule-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .schedule-time {
+    font-size: 0.75rem;
+  }
 }
 
 /* FAQ */
