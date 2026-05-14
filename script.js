@@ -195,6 +195,9 @@ const committees = [
     type: "SEMI",
     name: "SUMMIT",
     agenda: "1940 British War Summit",
+    files: [
+      { label: "Study Guide", path: "assets/guides/summit-study-guide.pdf" }
+    ],
     description: [
       "Set in May 1940, at a critical turning point in the Second World War, this Summit committee recreates the internal debates of the British War Cabinet during one of the most decisive moments in modern history. Following the rapid advancement of Nazi Germany across Europe, the United Kingdom faced a fundamental question: should it continue resisting or pursue negotiations for peace?",
       "Prime Minister Winston Churchill firmly advocated for continued resistance regardless of the deteriorating position of Britain's allies, emphasizing resilience and long-term strategic defense. In contrast, Foreign Secretary Lord Halifax supported the idea of entering negotiations, arguing that further conflict could lead to devastating consequences.",
@@ -232,6 +235,9 @@ const committees = [
     type: "CRISIS",
     name: "Board of Peace",
     agenda: "Board of Peace",
+    files: [
+      { label: "Study Guide", path: "assets/guides/board-of-peace-study-guide.pdf" }
+    ],
     description: [
       "The Board of Peace (BoP), established by Donald J. Trump, is a high-stakes executive forum designed to bypass traditional diplomatic gridlock through a \"peace through strength\" mandate. Tasked with resolving urgent global crises, the committee serves as a diplomatic crucible where member states must navigate American-led stabilization efforts while fiercely defending their own national identities and strategic sovereignty.",
       "Delegates will face the ultimate challenge: achieving collective security without compromising their country's red lines in a landscape defined by power politics and national pride."
@@ -241,6 +247,9 @@ const committees = [
     type: "CRISIS",
     name: "FJCC",
     agenda: "Game of Thrones: Battle of Bastards",
+    files: [
+      { label: "Study Guide", path: "assets/guides/fjcc-study-guide.pdf" }
+    ],
     description: [
       "Inspired by Game of Thrones, this Fictional Joint Crisis Committee places delegates at the center of the legendary Battle of the Bastards — the clash between Jon Snow and Ramsay Bolton for control of Winterfell and the fate of the North.",
       "This committee explores far more than a battlefield encounter; it delves into legitimacy, leadership, loyalty, vengeance, and the brutal cost of power. Delegates will be divided into rival war councils, commanding armies, shaping formations, securing alliances, and responding to relentless crisis updates that will continuously reshape the course of the war. Every directive will influence morale, strategy, and survival.",
