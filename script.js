@@ -146,6 +146,9 @@ const committees = [
     type: "SPECIAL",
     name: "EGM",
     agenda: "The Palu Family Case: Faith-Based Coercive Mechanisms, Domestic Violence, and Concealed Deaths",
+    files: [
+      { label: "Study Guide", path: "assets/guides/egm-study-guide.pdf" }
+    ],
     description: [
       "Dear Prosecutor, fellow lawyers, and esteemed police station officials, this year our EGM (General Directorate of Security) committee will be working on the \"The Palu Family Case\" agenda. Under the leadership of our USGs Berf and Göksu Efe, and with the support of ACAS Ekin, an excellent academic process awaits you. In addition to academic feedback, you will follow the process in the most enjoyable and productive way with plenty of humor and funny updates.",
       "In short, our expectation for you in this committee is to take on the role of a police officer, lawyer, or prosecutor — whichever allocation you get — and solve the mystery and enigma. More details would spoil the mystery, wouldn't they? Apply now and take one step closer to your chance to join this committee!"
