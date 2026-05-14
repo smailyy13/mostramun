@@ -84,6 +84,9 @@ const committees = [
     type: "GA",
     name: "UNWOMEN",
     agenda: "Combating Violence Against Women in the Digital Age",
+    files: [
+      { label: "Study Guide", path: "assets/guides/unwomen-study-guide.pdf" }
+    ],
     description: [
       "The UNWOMEN Committee, guided by the mission of UNWOMEN, focuses on advancing gender equality and protecting women's rights globally. In this session, delegates will address the growing issue of violence and harassment women face on the internet, including cyberbullying, online stalking, hate speech, and non-consensual content sharing.",
       "As digital spaces become central to public life, online abuse silences women's voices and limits their participation. The committee will work to develop effective, rights-based solutions that promote digital safety, accountability, and equal access to online platforms for all women and girls."
@@ -93,6 +96,9 @@ const committees = [
     type: "GA",
     name: "LEGAL",
     agenda: "State Sovereignty vs. Universal Jurisdiction",
+    files: [
+      { label: "Study Guide", path: "assets/guides/legal-study-guide.pdf" }
+    ],
     description: [
       "The idea of state sovereignty holds that a state has complete control over its internal affairs and territory, free from outside intervention. On the other hand, universal jurisdiction permits governments or international courts to bring criminal charges against individuals for some serious crimes, including war crimes, crimes against humanity, and genocide, regardless of the accused's nationality or the location of the incident. The conflict between upholding a state's sovereign rights and guaranteeing accountability for major international crimes is examined in this agenda item, which also raises important moral and legal issues regarding when the international community has the right to supersede national jurisdiction in order to protect justice and human rights.",
       "In order to determine whether international or foreign tribunals may lawfully prosecute people for major international crimes without infringing on a state's power, delegates will analyse the legal and political balance between state sovereignty and universal jurisdiction. In addition to discussing protections against political abuse, selective enforcement, and jurisdictional overreach, they will examine current international legal frameworks, state practice, and precedent. In the end, delegates will try to suggest procedures that improve accountability for serious human rights abuses while simultaneously safeguarding sovereign equality."
@@ -102,6 +108,9 @@ const committees = [
     type: "GA",
     name: "SOCHUM",
     agenda: "The Impact of State Measures on the Protection of Human Rights and Fundamental Freedoms in Iran",
+    files: [
+      { label: "Study Guide", path: "assets/guides/sochum-study-guide.pdf" }
+    ],
     description: [
       "The Social, Humanitarian, and Cultural Committee (SOCHUM), the Third Committee of the United Nations General Assembly, addresses issues related to human rights, fundamental freedoms, and social development, providing a platform for Member States to promote universal rights as outlined in the Universal Declaration of Human Rights while examining violations of civil, political, economic, social, and cultural rights and fostering international cooperation.",
       "In this session, the Committee will focus on the agenda item \"The Impact of State Measures on the Protection of Human Rights and Fundamental Freedoms in Iran,\" emphasizing the complex relationship between state governance and individual liberties within the Islamic Republic of Iran, where domestic laws, security policies, and institutional practices have faced significant international scrutiny. Reports from United Nations bodies and human rights organizations have raised concerns about restrictions on freedoms of expression, association, religion, and due process, as well as the broader impact of state responses to political dissent and civil society. While recognizing state sovereignty and diverse legal systems, the Committee underscores the need for balanced dialogue that upholds universally recognized human rights standards, encouraging delegates to assess the legality and humanitarian consequences of such measures and to propose solutions that strengthen the protection of fundamental freedoms in accordance with international law."
@@ -111,6 +120,9 @@ const committees = [
     type: "GA",
     name: "IAAP",
     agenda: "Addressing Perfectionism and Fear of Failure in Youth Mental Health",
+    files: [
+      { label: "Study Guide", path: "assets/guides/iaap-study-guide.pdf" }
+    ],
     description: [
       "The International Association of Applied Psychology (IAAP) committee focuses on how psychological research can guide real-world policies and social change. Rather than looking at mental health only as an individual issue, IAAP examines how systems such as education, culture, and social expectations shape the emotional well-being of societies. Delegates are expected to approach topics with both empathy and practicality, developing realistic and impactful policy solutions.",
       "Under the agenda \"Addressing Perfectionism and Fear of Failure in Youth Mental Health,\" the committee will explore how increasing academic pressure, constant comparison, and the pursuit of flawless success affect young people today. As perfectionism becomes normalized within schools and social environments, many students struggle with anxiety, burnout, and a persistent fear of not being \"good enough.\" This committee will discuss the roots of these pressures and evaluate how governments and institutions can respond through preventive mental health strategies, education reforms, and support systems that promote resilience without reinforcing unhealthy expectations."
@@ -120,6 +132,10 @@ const committees = [
     type: "SPECIAL",
     name: "House of Commons",
     agenda: "Unemployment and Regional Disparities in Thatcher's Britain",
+    files: [
+      { label: "Study Guide", path: "assets/guides/house-of-commons-study-guide.pdf" },
+      { label: "Rules of Procedure", path: "assets/guides/house-of-commons-rop.pdf" }
+    ],
     description: [
       "The House of Commons committee simulates the British Parliament during a transformative period in modern history, specifically set in the era of Margaret Thatcher's leadership. This committee focuses on the socio-economic challenges arising from rapid economic restructuring, including rising unemployment, industrial decline, and increasing regional inequalities across the United Kingdom.",
       "Delegates will take on the roles of Members of Parliament and engage in dynamic debate, policy drafting, and legislative negotiation. The primary objective will be to evaluate the social and economic consequences of governmental reforms, particularly in heavily industrialized regions affected by deindustrialization. Participants are expected to propose policies that balance economic growth with social equity, ensuring that national development does not disproportionately disadvantage certain communities.",
@@ -148,6 +164,9 @@ const committees = [
     type: "SPECIAL",
     name: "US Federal Court",
     agenda: "Judicial Review of Alleged Federal Election Manipulation in the 2024 United States Presidential Election",
+    files: [
+      { label: "Study Guide", path: "assets/guides/us-federal-court-study-guide.pdf" }
+    ],
     description: [
       "This committee examines the manipulation of the 2024 United States presidential election, one of the most pressing challenges facing contemporary democratic governance. Delegates will analyze the impact of cyber operations, disinformation campaigns, and technological vulnerabilities on the integrity of the electoral process.",
       "The committee will explore the balance between constitutional safeguards, national security considerations, freedom of expression, and the protection of democratic legitimacy. Through structured debate, delegates will assess existing legal and institutional frameworks and propose policy measures aimed at strengthening electoral resilience and maintaining public confidence in democratic institutions."
@@ -178,6 +197,9 @@ const committees = [
     type: "SEMI",
     name: "H-UNSC",
     agenda: "Concerning the deployment of nuclear missiles in Cuba and the implications of Cuban Missile Crisis for international peace and security",
+    files: [
+      { label: "Study Guide", path: "assets/guides/hunsc-study-guide.pdf" }
+    ],
     description: [
       "The Historical United Nations Security Council (H-UNSC) simulates past sessions of the UNSC, offering delegates the opportunity to return to significant crises in international history aiming to reevaluate them through diplomacy.",
       "The Cuban Missile Crisis (1962) is one of the most critical confrontations of the Cold War era. In the aftermath of the discovery of Soviet nuclear missile deployments in Cuba, Cold War tensions between the Soviet Union and the United States deepened, bringing the world to the brink of nuclear conflict. Delegates of the H-UNSC committee will analyze the principles of nuclear deterrence and collective security while responding to rapidly evolving developments through strategic thinking and crisis diplomacy."
@@ -277,9 +299,30 @@ function openModal(committee) {
   if (modalAgenda) modalAgenda.textContent = committee.agenda;
   if (modalDescription) {
     const paragraphs = Array.isArray(committee.description) ? committee.description : [committee.description || ""];
-    modalDescription.innerHTML = paragraphs
-      .map((p) => `<p>${p}</p>`)
-      .join("");
+    modalDescription.innerHTML = paragraphs.map((p) => `<p>${p}</p>`).join("");
+  }
+
+  const modalFiles = document.getElementById("modalFiles");
+  if (modalFiles) {
+    if (committee.files && committee.files.length > 0) {
+      modalFiles.innerHTML = `
+        <div class="modal-files-inner">
+          <h4>Documents</h4>
+          <div class="modal-files-btns">
+            ${committee.files.map((f) => `
+              <a href="${f.path}" download class="btn btn-ghost modal-file-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                ${f.label}
+              </a>
+            `).join("")}
+          </div>
+        </div>
+      `;
+      modalFiles.style.display = "block";
+    } else {
+      modalFiles.innerHTML = "";
+      modalFiles.style.display = "none";
+    }
   }
 
   modal.classList.add("open");
