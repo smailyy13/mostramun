@@ -158,6 +158,9 @@ const committees = [
     type: "SPECIAL",
     name: "FIA",
     agenda: "2016 — Jules Bianchi Accident Investigation",
+    files: [
+      { label: "Study Guide", path: "assets/guides/fia-study-guide.pdf" }
+    ],
     description: [
       "The agenda item for the FIA committee meeting at MostraMun will be the Jules Bianchi accident in Suzuka, Japan in 2016, which deeply saddened us all. Our committee will investigate this tragic accident that shocked everyone, and all delegates will be part of the FIA's investigative team.",
       "In summary, the accident occurred when Bianchi lost control of his car and crashed into a crane on the track, which was there to recover Adrian Sutil's car after Sutil's accident on the previous lap (lap 42) at the same spot, turn 7. The FIA at the time was inadequate in its investigation of this tragic accident, and even preventative measures were taken too late. We will be at MostraMun to commemorate this day, considered by some to be the most shameful day for the FIA, and to revisit these investigations. Simply lovely, isn't it?"
@@ -179,6 +182,9 @@ const committees = [
     type: "SEMI",
     name: "European Parliament",
     agenda: "The alleged Chinese harsh power and assimilation policies over East Turkistan & Uighurs",
+    files: [
+      { label: "Study Guide", path: "assets/guides/european-parliament-study-guide.pdf" }
+    ],
     description: [
       "The European Parliament is the legislative group of the European Union. It stands for its people's desires and forms plans on many matters. The parliament has Members who are chosen by direct voting, also known as MEPs; these members have a very important part in forming EU laws. They nurture conversation and make sure there is democratic rule inside the Union. Their duties involve looking into new political, social, and financial issues that could disturb Europe's peace or unity, to ensure that EU standards stay safe even when things around them are changing quickly worldwide.",
       "The committee will deliberate on the Chinese harsh power and assimilation policy on the Uyghur Muslims in East Turkestan, also referred to as the Xinjiang Uyghur Autonomous Region (XUAR). The delegates will deliberate on the claims of the Chinese harsh power on the Uyghur Muslims, such as the claims of mass surveillance, re-education camps, cultural restrictions, alleged cases of forced labor, and demographic restrictions, and their implications on EU-China relations. This case is complex and involves international law, sovereignty, human rights, and EU autonomy.",
@@ -212,6 +218,9 @@ const committees = [
     type: "CRISIS",
     name: "HCC",
     agenda: "Indonesian Cabinet of Suharto",
+    files: [
+      { label: "Study Guide", path: "assets/guides/hcc-study-guide.pdf" }
+    ],
     description: [
       "The Historical Crisis Committee (HCC) simulates the Indonesian Cabinet under President Suharto, focusing on the political and economic dynamics of his authoritarian regime during the late 20th century. Delegates will assume the roles of key government officials responsible for maintaining national stability while navigating internal and external challenges.",
       "Suharto's rule was characterized by centralized authority, economic development policies, and strict political control. The committee will explore how the regime responded to issues such as political opposition, economic management, and international relations within a strategically important region.",
@@ -243,6 +252,9 @@ const committees = [
     type: "CRISIS",
     name: "FCC",
     agenda: "Alice in Borderland",
+    files: [
+      { label: "Study Guide", path: "assets/guides/fcc-study-guide.pdf" }
+    ],
     description: [
       "Inspired by the series Alice in Borderland, this Fictional Crisis Committee places delegates in a mysterious and abandoned version of Tokyo, where survival depends on participating in dangerous and unpredictable games. Each participant must navigate this unfamiliar environment while facing both physical and psychological challenges.",
       "The central objective of the committee is to determine how to escape this world without losing one's life. Delegates will take on roles within the scenario, making decisions that directly affect their survival and the fate of others. Choices will involve moral dilemmas, alliances, and strategic risks.",
@@ -254,6 +266,9 @@ const committees = [
     type: "CRISIS",
     name: "JCC",
     agenda: "Battle of Dyrrhachium (1081 Norman Invasion)",
+    files: [
+      { label: "Study Guide", path: "assets/guides/jcc-study-guide.pdf" }
+    ],
     description: [
       "The Joint Crisis Committee (JCC) simulates one of the most decisive military confrontations of the medieval Mediterranean: the Battle of Dyrrhachium in 1081, where the Byzantine Empire faced the advancing Norman forces led by Robert Guiscard. This conflict marked a critical moment in Byzantine history, as the empire struggled to defend its western territories against a highly organized and aggressive invasion.",
       "Delegates will be divided into opposing crisis cabinets, representing the Byzantine command under Emperor Alexios I Komnenos and the Norman leadership under Robert Guiscard. Each side must develop military strategies, manage internal challenges, and respond to rapidly evolving battlefield conditions. The committee will not only focus on direct military engagement but also on logistics, morale, alliances, and political maneuvering.",
