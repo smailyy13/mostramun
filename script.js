@@ -261,6 +261,9 @@ const committees = [
     type: "CRISIS",
     name: "FCC",
     agenda: "Alice in Borderland",
+    files: [
+      { label: "Study Guide", path: "https://drive.google.com/file/d/1ECDcRTwbXNFkYKKC0Tm5adx6c1Q_hDZi/view?usp=sharing", external: true }
+    ],
     description: [
       "Inspired by the series Alice in Borderland, this Fictional Crisis Committee places delegates in a mysterious and abandoned version of Tokyo, where survival depends on participating in dangerous and unpredictable games. Each participant must navigate this unfamiliar environment while facing both physical and psychological challenges.",
       "The central objective of the committee is to determine how to escape this world without losing one's life. Delegates will take on roles within the scenario, making decisions that directly affect their survival and the fate of others. Choices will involve moral dilemmas, alliances, and strategic risks.",
@@ -334,7 +337,7 @@ function openModal(committee) {
           <h4>Documents</h4>
           <div class="modal-files-btns">
             ${committee.files.map((f) => `
-              <a href="${f.path}" download class="btn btn-ghost modal-file-btn">
+              <a href="${f.path}" ${f.external ? 'target="_blank" rel="noopener"' : 'download'} class="btn btn-ghost modal-file-btn">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 ${f.label}
               </a>
