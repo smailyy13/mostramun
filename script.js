@@ -261,9 +261,6 @@ const committees = [
     type: "CRISIS",
     name: "FCC",
     agenda: "Alice in Borderland",
-    files: [
-      { label: "Study Guide", path: "assets/guides/fcc-study-guide.pdf" }
-    ],
     description: [
       "Inspired by the series Alice in Borderland, this Fictional Crisis Committee places delegates in a mysterious and abandoned version of Tokyo, where survival depends on participating in dangerous and unpredictable games. Each participant must navigate this unfamiliar environment while facing both physical and psychological challenges.",
       "The central objective of the committee is to determine how to escape this world without losing one's life. Delegates will take on roles within the scenario, making decisions that directly affect their survival and the fate of others. Choices will involve moral dilemmas, alliances, and strategic risks.",
