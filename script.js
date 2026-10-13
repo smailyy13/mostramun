@@ -171,7 +171,7 @@ renderCommittees();
 const applicationTracks = {
   chair: {
     label: "Chair Applications",
-    url: "#",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSc0SQolLfF_H_d9H6rrWSq5o-mbORISQ5rh3gTy2Yd-PXzgEw/viewform",
     opens: new Date("2026-10-08T00:00:00+03:00"),
     closes: new Date("2026-10-21T00:00:00+03:00") // closes at the end of 20 October
   },
