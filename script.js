@@ -167,7 +167,6 @@ function renderCommittees() {
 renderCommittees();
 
 // ===== APPLICATIONS (DATE-GATED) =====
-// Paste the Google Form links here once they are ready.
 const applicationTracks = {
   chair: {
     label: "Chair Applications",
@@ -175,9 +174,15 @@ const applicationTracks = {
     opens: new Date("2026-10-08T00:00:00+03:00"),
     closes: new Date("2026-10-21T00:00:00+03:00") // closes at the end of 20 October
   },
-  delegate: {
-    label: "Delegate Applications",
-    url: "#",
+  individual: {
+    label: "Individual Delegate Applications",
+    url: "https://forms.gle/qUrR9SJWijjs2uEK8",
+    opens: new Date("2026-10-12T00:00:00+03:00"),
+    closes: new Date("2026-11-06T00:00:00+03:00") // closes at the end of 5 November
+  },
+  delegation: {
+    label: "Delegation Applications",
+    url: "https://forms.gle/bRuXoxPfpnkx2V3E6",
     opens: new Date("2026-10-12T00:00:00+03:00"),
     closes: new Date("2026-11-06T00:00:00+03:00") // closes at the end of 5 November
   }
